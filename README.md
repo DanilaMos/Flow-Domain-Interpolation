@@ -5,3 +5,4 @@ This repository contains:
 - Manual Dataset ZIP file (dataset.zip)
 - Notebook with training CAE models (CAE.ipynb)
 - Notebook with training VAE+mesh models (VAE_mesh.ipynb)
+- Best validation VAE model (best_val_vae.pth)
