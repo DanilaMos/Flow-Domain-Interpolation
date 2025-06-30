@@ -216,7 +216,7 @@ def img_to_mask(path, n, n_interior, n_walls, n_inlet, n_outlet, n_q_fix=0, leng
     mask = Image.open(path)
     mask = ImageOps.grayscale(mask)
 
-    crop_pixels = 30
+    crop_pixels = 42 #30
     mask = mask.crop((crop_pixels, 0, mask.size[0]-crop_pixels, mask.size[1]))
     mask = mask.resize((max(mask.size), max(mask.size)), Image.Resampling.NEAREST)
 
