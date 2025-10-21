@@ -2,7 +2,6 @@
 
 This repository contains:
 - Notebook with creation a manual dataset (dataset_maker.ipynb)
-- Manual Dataset ZIP files (dataset.zip, dataset_thick.zip)
 - Notebook with training CAE models (CAE.ipynb)
 - CAE models: https://drive.google.com/drive/folders/1dFRwN_50s-nfoNadFXnKTYWxAc6fctks?usp=sharing
 - Notebook with training VAE+mesh models (VAE_mesh.ipynb)
